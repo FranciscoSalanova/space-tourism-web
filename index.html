@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Frontend Mentor | Space Tourism Website</title>
+    <script src="index.js" defer></script>
+  </head>
+  <body class="home">
+    <a class="skip-to-content" href="#main">Skip to content</a>
+    <header class="primary-header flex">
+      <div>
+        <img
+          src="./assets/shared/logo.svg"
+          alt="space-tourism-logo"
+          class="logo"
+        />
+      </div>
+      <button
+        class="mobile-nav-toggle"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav>
+        <ul
+          class="primary-navigation underline-indicators flex"
+          id="primary-navigation"
+          data-visible="false"
+        >
+          <li>
+            <a
+              class="ff-sans-cond uppercase fs-300 letter-spacing-2 text-white"
+              href="#"
+              ><span aria-hidden="true">00</span>home</a
+            >
+          </li>
+          <li>
+            <a
+              class="ff-sans-cond uppercase fs-300 letter-spacing-2 text-white"
+              href="destination-moon.html"
+              ><span aria-hidden="true">01</span>destination</a
+            >
+          </li>
+          <li>
+            <a
+              class="ff-sans-cond uppercase fs-300 letter-spacing-2 text-white"
+              href="#"
+              ><span aria-hidden="true">02</span>crew</a
+            >
+          </li>
+          <li>
+            <a
+              class="ff-sans-cond uppercase fs-300 letter-spacing-2 text-white"
+              href="#"
+              ><span aria-hidden="true">03</span>technology</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main" class="grid-container grid-container--home">
+      <div>
+        <h1 class="ff-sans-cond uppercase fs-500 text-accent letter-spacing-1">
+          So, you want to travel to
+          <span class="d-block ff-serif uppercase fs-900 text-white"
+            >Space</span
+          >
+        </h1>
+        <p class="text-accent">
+          Let’s face it; if you want to go to space, you might as well genuinely
+          go to outer space and not hover kind of on the edge of it. Well sit
+          back, and relax because we’ll give you a truly out of this world
+          experience!
+        </p>
+      </div>
+      <div>
+        <a
+          href="#"
+          class="large-button text-dark bg-white ff-serif uppercase fs-600 letter-spacing-3"
+          >Explore
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
